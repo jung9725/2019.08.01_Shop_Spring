@@ -110,6 +110,8 @@ public class AccountController {
 
 	}
 
+	
+	
 	@RequestMapping(path = "/update", method = RequestMethod.GET)
 	public String updateForm (Model model, HttpSession session) {   
 
